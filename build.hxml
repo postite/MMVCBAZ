@@ -3,7 +3,7 @@ template/build.hxml
 
 --next
 -main com.postite.::currentApp::.App
-
+-cp MMVCBAZ
 -swf ::currentApp::.swf
 -lib mmvc
 -lib msignal
