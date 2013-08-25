@@ -17,7 +17,7 @@ class Main
 	FileSystem.createDirectory(def+"/"+pack);
 	dirs= new List();
 	readRec(def);
-
+	moveTo("./build.hxml","./build.hxml");
 	Sys.println("delete templates ?:");
     Sys.print(">>> Y || N ");
     var reponse=Sys.stdin().readLine();
