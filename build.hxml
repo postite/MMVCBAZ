@@ -1,0 +1,9 @@
+
+template/build.hxml
+
+--next
+-main com.postite.::currentApp::.App.-gen-hx-classes
+-swf ::currentApp::.swf
+-lib mmvc
+-lib msignal
+-cmd open ::currentApp::.swf
