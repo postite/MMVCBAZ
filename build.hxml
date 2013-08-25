@@ -2,7 +2,7 @@
 template/build.hxml
 
 --next
--main com.postite.::currentApp::.App.-gen-hx-classes
+-main com.postite.::currentApp::.App
 -swf ::currentApp::.swf
 -lib mmvc
 -lib msignal
